@@ -1,0 +1,120 @@
+.tb {
+    padding: 10%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(168, 191, 235);
+    border-left: 4px solid blue;
+}
+
+.tb:hover {
+    border-left: 4px solid green;
+}
+
+.title {
+    font-size: 120%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sub-btn {
+    border: none;
+    background-color: blue;
+    color: white;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sub-btn:hover {
+    cursor: pointer;
+    color: orange;
+    transform: .4s;
+}
+
+
+.login-title {
+    text-align: center; 
+    margin-top: 2%;
+    font-size: 170%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.status {
+    margin-top: 10%;
+}
+
+.frame {
+    opacity: 0.8;
+    padding: 1%;
+    background-color: black;
+    text-align: center;
+}
+
+.frame p {
+    color : white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(76, 159, 231);
+}
+
+.left {
+    flex: 80;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2.5%;
+}
+
+.left a {
+    margin-right: 10%;
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.left a:hover {
+    color: orange;
+    transition: .4s;
+}
+
+.right {
+    flex: 20;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.right img {
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 42%;
+}
+
+.back {
+    padding: 5%;
+}
+
+.back a {
+    text-decoration: none;
+    color: rgb(65, 65, 209);
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.back a:hover {
+    color: orange;
+    transition: .3s;
+    cursor: pointer;
+}
